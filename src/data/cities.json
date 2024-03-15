@@ -2,10 +2,14 @@
 [
     {
         "value": "BR",
-        "name": "Berlin"
+        "name": "Berlin",
+        "lat": 52.5200,
+        "long": 13.4050
     },
     {
         "value": "HAM",
-        "name": "Hamburg"
+        "name": "Hamburg",
+        "lat": 53.5511,
+        "long": 9.9937
     }
 ]

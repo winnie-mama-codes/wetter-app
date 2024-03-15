@@ -11,20 +11,20 @@ export const PageWetter = () => {
 		}
 	};
 
-
-
-	const handleCityDropdownChange =(e:ChangeEvent<HTMLSelectElement>) => {
-		setCityValue(e.target.value)
-
+	const handleCityDropdownChange = (e: ChangeEvent<HTMLSelectElement>) => {
+	const _cityValue = e.target.value;
+	setCityValue(cityValue)
 	};
 
 	return (
 		<>
 			<h1> wetter page</h1>
 			<form>
-				<select value={cityValue} 
-				onChange={(e)=>handleCityDropdownChange(e)}>
-					<option >City</option>
+				<select
+					value={cityValue}
+					onChange={(e) => handleCityDropdownChange(e)}
+				>
+					<option>City</option>
 					<option value="BR">Berlin</option>
 					<option value="HAM">Hamburg</option>
 				</select>
