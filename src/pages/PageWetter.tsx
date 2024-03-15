@@ -1,5 +1,24 @@
 export const PageWetter = () => {
 	return (
-		<p>This is the wetter page.</p>
+		<>
+		<h1> wetter page.</h1>
+		<form>
+			<select name="" id="">
+			<option selected>City</option>
+			<option value="berlin">Berlin</option>
+			<option value="ham">Hamburg</option>
+			</select>
+
+		</form>
+
+		<div>
+		<h2>city</h2>
+
+
+
+		</div>
+
+
+		</>
 	)
 }
