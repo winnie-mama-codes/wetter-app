@@ -13,7 +13,9 @@ export const PageWetter = () => {
 
 	const handleCityDropdownChange = (e: ChangeEvent<HTMLSelectElement>) => {
 	const _cityValue = e.target.value;
-	setCityValue(cityValue)
+	setCityValue(_cityValue)
+	const city = cities.find(m => m.value === _cityValue);
+	console.log(city)
 	};
 
 	return (
